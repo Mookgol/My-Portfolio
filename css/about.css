@@ -53,7 +53,7 @@
 .text-side h3 {
     font-size: 1.6rem;
     color: #333;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 700;
     margin-bottom: 1rem;
 }
