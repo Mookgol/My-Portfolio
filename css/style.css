@@ -3,7 +3,7 @@
     height:30px;
 }
 .image-container {
-    position: relative;
+    /*position: relative;*/
     width:600px;
     height: 600px;
     overflow: hidden;
@@ -14,12 +14,12 @@
     height: 100%;
     top: 0;
     transition: transform 0.5s;
-    transform: translateX(0);
+    transform: translateX(1);
     display: flex;
     justify-content: center;
     align-items: center;
     /*transform: scaleX(1);*/
-    clip-path:polygon(0 0, 50% 0, 50% 100%, 0% 100%);
+    /*clip-path:polygon(0 0, 50% 0, 50% 100%, 0% 100%);*/
 
 
 }
@@ -31,12 +31,15 @@
 }
 
 #animated {
-    left:0;
+    /*left:0;*/
+    /*clip-path: polygon(100% 0, 50% 0, 50% 100%, 100% 100%);*/
+    clip-path: polygon(0 0, 50% 0, 50% 100%, 0% 100%);
 }
 
 #original {
-    left:0;
-    clip-path:polygon(100% 0, 50% 0, 50% 100%, 100% 100%);
+    /*left:0;*/
+    /*clip-path:polygon(100% 0, 50% 0, 50% 100%, 100% 100%);*/
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
 }
 
 #animated:hover {
